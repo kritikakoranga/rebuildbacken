@@ -8,7 +8,7 @@ const io = socketIo(server, {
     origin: [
       'http://localhost:5173',
       'http://localhost:5174',
-      'https://re-build-frontend.onrender.com',
+      'https://rebuildbackend.onrender.com/',
       'https://rebuildfrontend-c6oq.vercel.app/',
       process.env.FRONTEND_URL
     ].filter(Boolean),
@@ -177,5 +177,6 @@ const InitalizeConnection = async ()=>{
 
 
 InitalizeConnection();
+
 
 
