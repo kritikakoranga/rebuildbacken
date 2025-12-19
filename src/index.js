@@ -9,7 +9,7 @@ const io = socketIo(server, {
       'http://localhost:5173',
       'http://localhost:5174',
       'https://re-build-frontend.onrender.com',
-      'https://newrebuild-fe-39hq.vercel.app',
+      'https://rebuildfrontend-c6oq.vercel.app/',
       process.env.FRONTEND_URL
     ].filter(Boolean),
     methods: ["GET", "POST"],
@@ -177,4 +177,5 @@ const InitalizeConnection = async ()=>{
 
 
 InitalizeConnection();
+
 
